@@ -1,0 +1,23 @@
+.navbar {
+  background-image: linear-gradient(to right, #4b025e, #4d0168, #4d0273, #4c047e, #4a078a);
+}
+
+.bgHome {
+  background-image: linear-gradient(to right bottom, #110713, #18071d, #1d0827, #200832, #22073d);
+}
+
+.skeleton {
+  opacity: .7;
+  border-radius: 5px;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 65%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
